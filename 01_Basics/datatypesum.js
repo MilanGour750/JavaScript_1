@@ -29,6 +29,8 @@ const myfunc = function(){
 
 //to find data type of datatype pf any variable we use "typeof"
 
-
+// *********************************************************** //
+// Primitive Dataypes uses Stack Memory Space, Copy Milta hai 
+// Non Primitive Uses Heap Memory Space, reference milata hai
 
 
