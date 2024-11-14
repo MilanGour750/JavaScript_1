@@ -93,3 +93,31 @@ const user = [
 //console.log(Object.values(tinderuser)) // it stored all the vals in an array so that we can use it by putting a loop
 
 //console.log(Object.entries(tinderuser)) // o/p => [ [ 'id', 123 ], [ 'name', 'Sammy' ], [ 'IsloggedIn', false ] ]
+
+// *********************************************************************************************************** //
+// Destructuring of Object
+const course = {
+    name: "Js Full in one shot",
+    price: 999,
+    courseinstructor: "Milan"
+}
+//console.log(course.courseinstructor)
+const {courseinstructor : instructor} = course //to not use object.key again and again 
+//console.log(instructor) 
+
+// API - Apna Kaam Kisike or ke saar 
+//JSON
+// object format 
+// {
+//     "name": "Millu"
+//     "price": "free"
+//     "coursename" = "Js With Milan"
+// }
+
+
+// Array Format 
+// [
+//     {},
+//     {},
+//     {}
+// ]
