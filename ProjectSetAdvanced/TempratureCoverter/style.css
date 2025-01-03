@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#insert p {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}
